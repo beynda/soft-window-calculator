@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "currency": "RUB",
+  "companyAddress": "",
+  "savedAt": null,
+  "ranges": {
+    "dimensions": {
+      "min": 20,
+      "max": 1500,
+      "minSegment": 5
+    },
+    "borderWidthCm": {
+      "min": 7,
+      "max": 15
+    }
+  },
+  "availableOptions": {
+    "materials": [
+      "clear-pvc-700",
+      "tinted-pvc-700",
+      "none"
+    ],
+    "hardware": [
+      "grommet",
+      "plastic-turn-button",
+      "metal-turn-button",
+      "black-metal-turn-button",
+      "strap-bracket-45",
+      "hook-strap-kit"
+    ]
+  },
+  "tariffs": {
+    "materials": {
+      "clear-pvc-700": 1000,
+      "tinted-pvc-700": 1300,
+      "none": 900
+    },
+    "hardware": {
+      "grommet": 10,
+      "plastic-turn-button": 20,
+      "metal-turn-button": 30,
+      "black-metal-turn-button": 35,
+      "strap-bracket-45": 40,
+      "hook-strap-kit": 100
+    },
+    "zipperPerMeter": 100,
+    "weightBarPerMeter": 80,
+    "flashingPerMeter": 120,
+    "surcharges": {
+      "shapes": {},
+      "products": {}
+    }
+  },
+  "vat": {
+    "mode": "off",
+    "ratePercent": 0
+  },
+  "texts": {
+    "intro": "Beynda calculator sample. Prices are illustrative.",
+    "configurationRequired": "Pricing requires configuration",
+    "privacy": "Use sample contact details when trying the local demo."
+  },
+  "marketRates": {
+    "USD": {
+      "tariffs": {
+        "materials": {
+          "clear-pvc-700": 18,
+          "tinted-pvc-700": 24,
+          "none": 16
+        },
+        "hardware": {
+          "grommet": 0.25,
+          "plastic-turn-button": 0.5,
+          "metal-turn-button": 0.75,
+          "black-metal-turn-button": 0.85,
+          "strap-bracket-45": 1,
+          "hook-strap-kit": 2.5
+        },
+        "zipperPerMeter": 3,
+        "weightBarPerMeter": 2.5,
+        "flashingPerMeter": 3.5,
+        "surcharges": {
+          "shapes": {},
+          "products": {}
+        }
+      },
+      "vat": {
+        "mode": "off",
+        "ratePercent": 0
+      }
+    },
+    "EUR": {
+      "tariffs": {
+        "materials": {
+          "clear-pvc-700": 17,
+          "tinted-pvc-700": 22,
+          "none": 15
+        },
+        "hardware": {
+          "grommet": 0.2,
+          "plastic-turn-button": 0.45,
+          "metal-turn-button": 0.65,
+          "black-metal-turn-button": 0.8,
+          "strap-bracket-45": 0.9,
+          "hook-strap-kit": 2.2
+        },
+        "zipperPerMeter": 2.8,
+        "weightBarPerMeter": 2.3,
+        "flashingPerMeter": 3.2,
+        "surcharges": {
+          "shapes": {},
+          "products": {}
+        }
+      },
+      "vat": {
+        "mode": "off",
+        "ratePercent": 0
+      }
+    }
+  }
+}

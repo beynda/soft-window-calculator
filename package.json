@@ -1,0 +1,20 @@
+{
+  "name": "beynda-soft-window-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tests/e2e/dev-server.mjs",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "build": "node deployment/build.mjs",
+    "test:e2e": "python tests/e2e/browser_e2e.py",
+    "test:e2e:international": "python tests/e2e/internationalization.py",
+    "test:e2e:archive": "npm run build && python tests/e2e/archive_auth.py",
+    "build:demo": "node deployment/build-demo.mjs",
+    "test:e2e:demo": "npm run build:demo && python tests/e2e/demo.py"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
+  }
+}

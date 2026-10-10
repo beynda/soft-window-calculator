@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.upload*
+node_modules/
+deployment/dist/
+storage/*
+!storage/config.json
+*.log
+__pycache__/
+*.pyc
+artifacts/
+deployment/demo/
